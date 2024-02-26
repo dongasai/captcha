@@ -1,0 +1,15 @@
+version: '2.2'
+networks:
+    ggggg:
+        external: true
+services:
+  dev:
+    build: .
+    image: captcha:c82
+    privileged: false
+    container_name: captchaphp
+    volumes:
+    - .:/var/www/html
+    tty: true
+    networks:
+      - ggggg

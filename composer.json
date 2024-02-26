@@ -1,0 +1,25 @@
+{
+    "name": "dongasai/captcha",
+    "description": "验证码组件",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dongasai\\Captcha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dongasai",
+            "email": "1514582970@qq.com"
+        }
+    ],
+    "require": {
+        "ext-gd": "*",
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "laravel/framework": "^9.19",
+        "topthink/think-orm": "^3.0"
+    }
+}
